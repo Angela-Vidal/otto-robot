@@ -106,7 +106,7 @@ Este projeto pode ser usado livremente sob a licença **MIT**.
 
 ---
 
-Créditos
+## ⭐ Créditos
 
 Este projeto foi desenvolvido por:
 
