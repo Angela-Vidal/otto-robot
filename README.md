@@ -34,11 +34,9 @@ O código disponibilizado neste repositório faz o Otto realizar:
 📁 otto-danca
  ├── src/
  │   └── otto_dance.ino
- ├── assets/
- │   ├── esquema_ligacao.png
- │   └── otto_montado.jpg
  ├── README.md
  └── LICENSE
+
 ```
 
 ---
