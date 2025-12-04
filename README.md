@@ -106,5 +106,25 @@ Este projeto pode ser usado livremente sob a licença **MIT**.
 
 ---
 
+Créditos
+
+Este projeto foi desenvolvido por:
+
+Angela
+
+Alessandra
+
+Antony
+
+Leonardo
+
+Professor responsável: Peterson
+
+Disciplina: Projeto de Extensão I 
+
+UNEB - Universidade do Estado da Bahia
+
+---
+
 ## 🤝 Contribuições
 Sinta-se à vontade para abrir issues, enviar PRs ou sugerir novos movimentos de dança!
