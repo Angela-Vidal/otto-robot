@@ -31,14 +31,15 @@ O código disponibilizado neste repositório faz o Otto realizar:
 
 ## 📂 Estrutura do Repositório
 ```
-📁 otto-danca
+📁 otto-robot
  ├── src/
  │   └── otto_dance.ino
  ├── assets/
- │   ├── esquema_ligacao.png
- │   └── otto_montado.jpg
+ │   ├── otto.jpg
+ │   └── danca.mp4
  ├── README.md
  └── LICENSE
+
 ```
 
 ---
@@ -100,6 +101,44 @@ void loop() {
   delay(800);
 }
 ```
+
+---
+
+## 📸 Foto do Otto
+
+![Otto Montado](assets/otto.jpeg)
+
+---
+
+## 🎥 Vídeo do Otto dançando
+
+[👉 Clique aqui para assistir ao vídeo](assets/danca.mp4)
+
+---
+
+## ⭐ Créditos
+
+Este projeto foi desenvolvido por:
+
+Angela
+
+Alessandra
+
+Antony
+
+Leonardo
+
+Professor responsável: Peterson
+
+Disciplina: Projeto de Extensão I 
+
+UNEB - Universidade do Estado da Bahia
+
+---
+
+## 🤝 Contribuições
+Sinta-se à vontade para abrir issues, enviar PRs ou sugerir novos movimentos de dança!
+
 
 ---
 
