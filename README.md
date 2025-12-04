@@ -116,12 +116,6 @@ void loop() {
 
 ---
 
-## 🤝 Contribuições
-Sinta-se à vontade para abrir issues, enviar PRs ou sugerir novos movimentos de dança!
-
-
----
-
 ## 📜 Licença
 Este projeto pode ser usado livremente sob a licença **MIT**.
 
