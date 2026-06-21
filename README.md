@@ -63,12 +63,17 @@ O código disponibilizado neste repositório faz o Otto realizar:
 ```
 📁 otto-robot
  ├── src/
+ │   └── Otto_calibracao_90.ino
  │   └── otto_dance.ino
+ │   └── song_walk.ino
+ │   └── testeServoMotor.ino
  ├── assets/
  │   ├── otto.jpg
- │   └── danca.mp4
- ├── README.md
- └── LICENSE
+ │   ├── danca.mp4
+ │   ├── robot_move_test.jpeg
+ │   └── robot assembly.jpeg
+ ├── LICENSE
+ └── README.md
 
 ```
 
