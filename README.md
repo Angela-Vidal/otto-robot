@@ -3,20 +3,50 @@
 Este repositório contém o código e as instruções para o **Robô Otto** realizar movimentos de dança utilizando Arduino. O objetivo é disponibilizar um guia simples, organizado e pronto para ser usado ou modificado pela comunidade.
 
 ---
+![Impressão 3D](https://img.shields.io/badge/📦_3D_PRINTING-24292E?style=for-the-badge&logo=ultimaker&logoColor=00E5FF)
+![Circuito Eletrônico](https://img.shields.io/badge/🔌_ELECTRONIC_CIRCUIT-0B1D12?style=for-the-badge&logo=kicad&logoColor=00FF66)
+![Soldagem](https://img.shields.io/badge/🔥_SOLDERING-5C0606?style=for-the-badge&logo=weller&logoColor=FFD700)
+![Robótica](https://img.shields.io/badge/🤖_ROBOTICS-120E1E?style=for-the-badge&logo=robotoperatingsystem&logoColor=38FF16)
 
 ## 🦾 Sobre o Robô Otto
 O **Otto DIY** é um robô open-source de fácil montagem, que utiliza servomotores e um microcontrolador (geralmente Arduino Nano) para executar movimentos como caminhar, girar, agachar e dançar. É ideal para projetos educacionais, makers e experimentos com robótica.
 
+--- 
+
+## 🛠️ Componentes Utilizados
+Abaixo estão listados todos os componentes, materiais e ferramentas utilizados na montagem física e eletrônica do projeto.
+
+### 🧩 Hardware e Eletrônica
+
+| Item | Qtd. | Categoria | Descrição |
+| :--- | :---: | :---: | :--- |
+| **Arduino Nano** | 1x | `Microcontrolador` | Placa de desenvolvimento principal. |
+| **Shield de Expansão I/O** | 1x | `Placa Base` | Shield de expansão para facilitar as conexões dos pinos. |
+| **Servomotores SG90** | 4x | `Atuadores` | Motores responsáveis pela articulação (acompanha braços/hastes). |
+| **Sensor Ultrassônico HC-SR04** | 1x | `Sensor` | Utilizado para detecção de obstáculos e distância. |
+| **Buzzer 5V** | 1x | `Áudio` | Emissor sonoro para alertas e bipes. |
+| **Baterias 1.2V (4800mAh)** | 4x | `Energia` | Fonte de alimentação primária do circuito. |
+| **Interruptor de Pressão** | 1x | `Energia` | Chave liga/desliga de auto-travamento (6 pinos, 8x8mm). |
+| **Cabos Jumpers** | Q.S.* | `Conexão` | Fios para conexões elétricas rápidas. |
+
+<sub style="font-size: 0.8em;">*Q.S. = Quantidade Suficiente.</sub>
+
 ---
 
-## 🛠️ Componentes Necessários
-- 1x Arduino Nano
-- 1x Placa Otto DIY ou protoboard
-- 4x Servomotores SG90
-- 1x Suporte para 4 pilhas AA ou bateria
-- Cabos jumpers
-- Estrutura impressa em 3D do Otto DIY
+### 🖨️ Estrutura Mecânica e Ferramental
 
+![Estrutura 3D](https://img.shields.io/badge/_ESTRUTURA_3D-24292E?style=flat-flat&logoColor=00E5FF)
+* **Chassis do Robô (Design Otto DIY):** Peças totalmente fabricadas via **Impressão 3D**:
+  * 1x Cabeça (*Head*)
+  * 1x Corpo (*Body*)
+  * 2x Pernas (*Legs*)
+  * 1x Pé Direito (*Right foot*)
+  * 1x Pé Esquerdo (*Left foot*)
+* **Elementos de Fixação:** Parafusos diversos para montagem da estrutura e dos servos.
+
+![Bancada Maker](https://img.shields.io/badge/_BANCADA_MAKER-5C0606?style=flat-flat&logoColor=FFD700)
+* **Ferro de Solda:** Utilizado para a fixação permanente dos fios no interruptor e conexões de energia.
+* **Chave Phillips Magnetizada:** Ferramenta essencial para o alinhamento e fixação dos parafusos nos eixos dos servos.
 ---
 
 ## 💃 Funcionalidade de Dança
@@ -115,31 +145,27 @@ void loop() {
 [👉 Clique aqui para assistir ao vídeo](assets/danca.mp4)
 
 ---
+  <br>
+  <p align="center">
+  <img src="https://img.shields.io/badge/🚀_MISSION_STATUS-COMPLETED-120E1E?style=for-the-badge&logo=spaceship&logoColor=00FF66" alt="Status da Missão">
+</p>
 
-## 📜 Licença
-Este projeto pode ser usado livremente sob a licença **MIT**.
+### 👥 Desenvolvedores (Core Team)
+* **Alessandra Lemos** 
+* **Angela Vidal** 
+
+### 🎓 Orientação & Coordenação
+* **Prof. Peterson Lobato** — *Supervisor do Projeto / Laboratório Include*
+
+---
+
+###  Instituição e Contexto
+* **Disciplina:** Projeto de Extensão I e II
+* **Instituição:** **UNEB** – Universidade do Estado da Bahia
+* **Ecossistema:** Lab Include / Cultura Maker & Robótica
 
 ---
 
-## ⭐ Créditos
-
-Este projeto foi desenvolvido por:
-
-Angela
-
-Alessandra
-
-Antony
-
-Leonardo
-
-Professor responsável: Peterson
-
-Disciplina: Projeto de Extensão I 
-
-UNEB - Universidade do Estado da Bahia
-
----
 
 ## 🤝 Contribuições
 Sinta-se à vontade para abrir issues, enviar PRs ou sugerir novos movimentos de dança!
